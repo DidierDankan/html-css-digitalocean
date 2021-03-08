@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
     <!-- STYLES -->
     <link rel="stylesheet" href="./css/framework.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -20,7 +23,7 @@
                     </a>
                 </div>
                 <!-- start middle nav bar-->
-                <div class="complete-nav-bar col-lg-5 text-center">
+                <div class="complete-nav-bar col-lg-5">
                     <ul>
                         <li>
                             <a href="#">
@@ -45,7 +48,7 @@
                             </a>
                         </li>
                     </ul>
-                </div><!-- end middle nav bar visible min-width:992px-->
+                </div><!-- end middle nav bar / visible min-width:992px-->
                 <div class="toggle col-xs-6 col-lg-4 text-right">
                     <i class="fas fa-bars hamburguer"></i>
                     <ul>
@@ -74,8 +77,54 @@
                     </ul>
                 </div><!--end hamburguer, its going to change when the viewport grows-->
             </div>
-        </div>
-
+        </div><!--end container-->
     </header>
+    <!-- MAIN -->
+    <main>
+        <div class="viewport-img">
+            <div class="container pd-t50 pd-b50">
+                <div class="hero-text col-xs-12 col-md-7 col-lg-7">
+                    <h1>
+                        The simplest cloud platform for developers & teams
+                    </h1>
+                    <p class="mb">
+                        Deploy, manage, and cale cloud applications faster and more
+                        efficiently on DigitalOcean.
+                        We make managing infrastructure easy for teams and businesses,
+                        whether you're running one virtual machine
+                        or ten thousand.  
+                    </p>
+                </div><!--end hero-text-->
+                <!-- google form -->
+                <div class="col-xs-12 col-md-5 col-lg-5  mb">
+                    <div class="form-box text-center">
+                        <div class="form-header">
+                            <h2>
+                                Deploy your app in seconds.
+                            </h2>
+                            <h2 class="mb">
+                                Get started now.
+                            </h2>
+                        </div><!--end of form header-->
+                        <form action="#">
+                            <label for="email"></label>
+                            <input class="form-fix mb" type="email" placeholder="Email">
+                            <label for="password"></label>
+                            <input class="form-fix mb" type="password" placeholder="Password">
+                            <!-- bottons -->
+                            <a class="btn2 mb" href="#">
+                                Create your account
+                            </a>
+                            <a class="btn3 mb" href="#">
+                                <img src="./img/google-icon.png" alt="google icon">
+                                <span>Sign up with Google</span>
+                            </a>
+                            <span class="terms">By signing up you agree to the <a href="#"> Terms of service</a></span>
+                        </form><!--end of form-->
+                    </div><!--end of form box-->
+                </div>
+            </div><!--end container-->
+        </div>
+    </main>
 </body>
 </html>
