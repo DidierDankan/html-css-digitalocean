@@ -1,0 +1,138 @@
+/* UTILITY */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w39 {
+    width: 39%;
+}
+
+.disp-inblock {
+    display: inline-block;
+}
+
+.disp-none {
+    display: none;
+}
+
+.pad-top {
+padding-top: 10px;
+}
+
+/* HEADER */
+/* nav-bar */
+.nav-bar {
+    max-width: 100%;
+    height: 60px;
+    padding: 15px;
+}
+
+.nav-bar .brand img {
+    vertical-align: middle;
+    height: 30px;
+}
+
+/* hamburguer finish at 992px */
+.nav-bar .toggle {
+    display: inline-block;
+    padding-left: 5px;
+    color: #162D5B;
+    font-size: 1.1rem;
+}
+
+.nav-bar .toggle .hamburguer {
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #177EFC;
+}
+
+
+/* nav-bar middle starts at 992px */
+.complete-nav-bar {
+    display: none;
+    padding-top: 5px;
+}
+
+.nav-bar .complete-nav-bar ul {
+    list-style: none;
+}
+
+.nav-bar .complete-nav-bar ul li {
+    display: inline-block;
+}
+
+.nav-bar .complete-nav-bar ul li a {
+    padding-left: 10px;
+    color: #162D5B;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.nav-bar .complete-nav-bar ul li i {
+    font-size: .9rem;
+}
+
+/* nav-bar right starts at 992px */
+.nav-bar .toggle ul {
+    display: none;
+    padding-top: 5px;
+    list-style: none;
+}
+
+.nav-bar .toggle ul li {
+    display: inline-block;
+}
+
+.nav-bar .toggle ul li:not(li:last-child) a {
+    padding-left: 10px;
+    color: #162D5B;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.nav-bar .toggle ul li i {
+    font-size: .9rem;
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid #6FABFF;
+    border-radius: 4px;
+}
+
+.btn-color {
+    color: #6FABFF;
+    text-decoration: none;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 992px) {
+    .nav-bar {
+        padding: 15px 0px;
+    }
+
+    .complete-nav-bar {
+        display: inline-block;
+    }
+
+    .nav-bar .toggle .hamburguer {
+        display: none;
+    }
+
+    .nav-bar .toggle ul {
+        display: inline-block;
+    }
+
+
+}
