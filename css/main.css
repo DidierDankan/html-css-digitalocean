@@ -68,6 +68,10 @@ body {
     padding-top: 20px;
 }
 
+.pd-b20 {
+    padding-bottom: 20px;
+}
+
 .pd-left-right {
     padding-left: 5px;
     padding-right: 5px;
@@ -106,6 +110,14 @@ body {
     color: #8EA6DD;
 }
 
+.colored-light-gray {
+    color: #8A94A9;
+}
+
+.colored-light-gray2 {
+    color: #516081;
+}
+
 .h4-colored-dark-blue {
     color: #0A2353;
 }
@@ -129,6 +141,10 @@ body {
 .font-size-7rem {
     font-size: .7rem;
 } 
+
+.font-weight500 {
+    font-weight: 500;
+}
 
 .a-decoration-none {
     text-decoration: none;
@@ -559,7 +575,7 @@ body {
 
 /* GET START SECTION */
 .viewport-get-start {
-    background: #002CA6;
+    background-image:linear-gradient(0deg, #00229D, #0041BB)
 }
 
 .btn4 {
@@ -571,6 +587,46 @@ body {
     background: #fff;
     border: 1px solid #fff;
     border-radius: 4px;
+    text-decoration: none;
+}
+
+/* BIG FOOTER */
+.viewport-footer {
+    background: #031C4E;
+}
+
+.viewport-footer .logo-social img {
+    height: 40px;
+    padding-bottom: 3px;
+}
+
+.viewport-footer .logo-social p {
+    font-weight: 500;
+}
+
+.viewport-footer .logo-social .social ul,
+.viewport-footer .big-ul-footer ul {
+    list-style: none;
+}
+
+.viewport-footer .logo-social .social ul li {
+    display: inline-block;   
+}
+
+.viewport-footer .logo-social .social ul li a {
+    color: #7A859D;
+    font-size: 1.1rem;
+    padding-right: 5px;
+}
+
+.viewport-footer .big-ul-footer ul li {
+    line-height: 1.5;
+}
+
+.viewport-footer .big-ul-footer ul li a {
+    color: #A5ACBC;
+    font-size: .8rem;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -764,5 +820,23 @@ body {
 
     .viewport-slide2 .container .next-slide-representive {
         bottom: 10%;
+    }
+
+    /* BIG FOOTER */
+    .viewport-footer .logo-social img {
+        height: 50px;
+    }
+
+    .viewport-footer .logo-social .social ul li a {
+        font-size: 1.4rem;
+        padding-right: 8px;
+    }
+
+    .viewport-footer .logo-social .font-size-8rem {
+        font-size: 1rem;
+    }
+
+    .viewport-footer .logo-social .font-size-7rem {
+        font-size: .9rem;
     }
 }
